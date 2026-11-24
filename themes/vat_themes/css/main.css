@@ -1,0 +1,173 @@
+/* Shathi making css - March-10,2020*/
+ul.dropdown, ul.dropdown li.top, ul.dropdown li { /*main manu bg color*/
+    background-color: #004D80 !important;
+}
+/*hide-view page css start*/
+.grid-view table.items th { /*grid HLine color*/
+    color: #fff;
+    font-weight: 700;
+    background-color: #2583c1;
+    text-align: center;
+}
+.ui-widget-header { /*hide-view Hline page color*/
+    background: #67b0e0 !important;
+    border: none !important;
+    /* border-left: 20px solid #00A65A !important; */
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+}
+ .view-page-heading {
+    color: #5D6D7E;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+    margin-top: -30px;
+}
+                
+/*hide-view page css end*/
+
+
+
+input[type=submit].add-more-btn {
+    float: right;
+    padding: 15px 0;
+    width: 100px;
+}
+
+    a.findBtn {
+    padding: 4px 30px;
+    margin: 10px 0px;
+    float: right;
+}
+
+a.findBtn, input.findBtn {
+    border: 1px solid #AAA;
+    border-radius: 3px;
+    color: #f9f5f5;
+    font-weight: 700;
+    padding: 0 3px;
+    text-decoration: none;
+    margin: 2px 0;
+    width: 31%;
+    height: 33px;
+    text-align: center;
+    margin-top: 6px;
+    padding-top: 5px;
+    background-color: #67b0e0;}
+
+                td {
+                    display: table-cell;
+                    vertical-align: central;
+                }
+                .well {
+                    width: 100%; 
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    min-height: 20px;
+                    padding: 20px;
+                    background-color: #f5f5f5;
+                    border: 1px solid #e3e3e3;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px;
+                    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+                    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+                    box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.05);
+                }
+
+                .panel-heading {
+                    background: #67b0e0; 
+                    color: white; 
+                    text-align:center;
+                    font-size: 20px;
+                    padding: 8px;
+                }
+                
+                table.allDelivery, table.allDelivery tr, table.allDelivery tr th, table.allDelivery tr td {
+                    border: 1px solid #cccccc;
+                    border-collapse: collapse;
+                    padding: 4px;
+                    margin-top:20px;
+                        text-align: center;
+                }
+
+                table.allDelivery tr th {
+                    background-color: #67b0e0;
+                    color: white; 
+                    text-align:center;
+                }
+
+                .card-title {
+                    text-align:center; 
+                    color: #5D6D7E ;
+                    
+                    font-size: 18px;
+                    padding:0px;
+                }
+
+                .card-body { 
+                    background: #F8F9F9;
+                    -webkit-box-flex: 1;
+                    -ms-flex: 1 1 auto;
+                    flex: 1 1 auto;
+                    padding: .25rem;
+                }
+
+                .card {
+                    background: #D6EAF8;
+                }
+
+                select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+                    display: inline-block;
+                    height: 30px;
+                    padding: 4px 6px;
+                    margin-bottom: 5px;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #555555;
+                    vertical-align: middle;
+                    -webkit-border-radius: 2px;
+                    -moz-border-radius: 2px;
+                    border-radius: 2px;
+                    width: 75%;
+                }
+
+
+                input[type=submit],input[type=button], input[type=button], .custom-btn, a.additionalBtn {
+                background: #67b0e0;
+                color: white;
+                font-size: 14px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-right: 6px;
+                text-align: center;
+                padding: 3px 10px !important;
+                border: 2px solid #67b0e0;
+                border-radius: 4px;
+                width: 90px;
+                height: 28px;
+                vertical-align: middle;
+                box-shadow: none;
+                text-shadow: none;
+            }
+                
+                input[type=submit]:hover, input[type=button]:hover, .custom-btn:hover, a.additionalBtn:hover {
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+                
+                input[type="file"] {
+                    height: 35px;
+                }
+                ul.dropdown ul .dir {
+                    width: 210px;
+                }
+
+                ul.dropdown ul li.dir div.titleM {
+                    width: 210px;
+                }

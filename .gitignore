@@ -1,0 +1,14 @@
+.env
+.env.*
+*.log
+*.db
+*.sqlite
+*.sqlite3
+/error_log
+/upload/
+/protected/runtime/
+/protected/data/*.sql
+/protected/extensions.zip
+/protected/scheduler_files/
+/protected/config/main.php
+/protected/config/main--.php
